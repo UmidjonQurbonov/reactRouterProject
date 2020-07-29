@@ -1,0 +1,22 @@
+.home{
+    &_bg-video{
+        position: absolute;
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+        z-index:-1;
+        overflow: hidden;
+        background-attachment: fixed;
+    }
+
+
+    &_dark-overlay{
+        background:rgba(30, 30, 30, .9);
+        position: absolute;
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+    }
+}

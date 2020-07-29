@@ -1,0 +1,35 @@
+@import '../variables.scss';
+@import '../mixin.scss';
+
+.header{
+    min-height:95vh;
+    clip-path: polygon(0 0,100% 0, 100% 90vh, 0 100%);
+    background-image:linear-gradient(to right bottom, rgba(41, 41, 41, 0.5),rgba(0,0,0,.95)),url(../../img/nat-10.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    // padding-top:50px;
+
+    &_title{
+       @include transparentTitle;
+    }
+
+    &_text{
+        color:$light;
+        .fa-check{
+            border-radius:6px;
+            background:#7ed56f;
+            margin-right:10px;
+        }
+    }
+    .row{
+        padding-top:55px;
+        min-height:90vh;
+    }
+
+
+
+
+
+}

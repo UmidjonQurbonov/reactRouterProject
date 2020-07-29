@@ -1,0 +1,20 @@
+.contact_main{
+    .contact_input{
+        border-radius: 0;
+        &::placeholder{
+            color:rgba(black,.2);
+        }
+
+        &:focus{
+            border:none;
+            outline:none;
+            box-shadow:none;
+            border-bottom:3px solid #28a745 ;    
+
+        }
+
+        &:focus:invalid{
+            border-bottom: 3px solid #ffc107;
+        }
+    }
+}

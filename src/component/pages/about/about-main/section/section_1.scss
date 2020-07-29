@@ -1,0 +1,14 @@
+@import '../../../../mixin.scss';
+@import '../../../../variables.scss';
+
+.section_1{
+    padding-top:10vh;
+    margin-top:-5vh;
+    
+    &-h1{
+        @include transparentTitle;
+
+    }
+
+
+}

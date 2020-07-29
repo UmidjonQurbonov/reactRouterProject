@@ -1,0 +1,15 @@
+.home-header{
+    .container{
+        min-height:100vh;
+    }
+    .row{
+        position: absolute;
+        width:100%;
+        top:50%;
+        transform:translateY(-40%);
+    }
+
+    .home_form-group{
+        opacity:.8;
+    }
+}
